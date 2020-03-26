@@ -1,0 +1,42 @@
+%Dokumentinnstillinger:---------------------------------
+\documentclass[11pt,norsk]{teknisk-notat}
+\usepackage{amsmath}
+\usepackage{float}
+
+%lagt til
+\setlength {\marginparwidth }{2cm}
+\usepackage[colorinlistoftodos]{todonotes}
+
+
+\heading{LK Kabeltester} 
+\title{Teknisk dokumentasjon}
+\author{Ø. Skaaden}
+\version{1.0}
+\date{\today}
+\faculty{Forsterkerkomiteén ved Studentersamfundet i Trondhjem}
+
+\addbibresource{ref.bib}
+
+\begin{document}
+
+\maketitle
+
+%Automatisk generert innholdsfortegnelse:------------------
+\toc
+
+\url{http://www.lkconnectors.info/lk_audio_wiring.htm#12ch}
+
+% Skal endre til bibtex %
+
+%Bibliografi: Legg til flere elementer ved å legge til flere \bibitem:--------
+\phantomsection
+\addcontentsline{toc}{section}{Referanser}
+
+\printbibliography
+
+% Vedlegg
+% Legge til flere vedlegg-filer i mappen og legge til flere input
+\appendix
+%\input{vedlegg/vedlegg1.tex}
+
+\end{document}
